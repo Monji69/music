@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivity("+play",{type: 'WATCHING'})
+   client.user.setActivity("+help",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -88,7 +88,7 @@ client.on('message', async msg => {
                     .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
  
-                    .setFooter("By @! ๖ۣۜℜIP⇝ℳℜ_ℳⅅℳℛ👑#0590 ")
+                    .setFooter("By !♤O.H♤|| ╲⎝مجهول☠☯☠NaSto⎠╱ ||#0831 ")
                     msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
                    
                     // eslint-disable-next-line max-depth
@@ -267,7 +267,7 @@ ${prefix}vol ⇏ لتغيير درجة الصوت 100 - 0
 ${prefix}leave⇏ لإخرآج البوت من الروم
 ${prefix}np ⇏ لمعرفة الأغنية المشغلة حآليا
 ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
- `)
+     By : NaSto :3 `)
    message.channel.sendEmbed(embed)
    
    }
